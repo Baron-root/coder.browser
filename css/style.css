@@ -1,0 +1,104 @@
+body {
+  background-color: #262d40;
+  color: #fff;
+  font-family: poppinsregular;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px;
+}
+#pont {
+  font-size: 70px;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#title {
+  flex-direction: column;
+  line-height: 10px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+#conta-btn {
+  border: 2px solid #008000;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+#conta-btn:hover {
+  background-color: #008000;
+  color: #fff;
+}
+
+a:hover {
+  color: #008000;
+}
+
+li {
+  display: inline-block;
+  margin: 20px;
+}
+
+h1 {
+  font-weight: 200;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+}
+
+h2 {
+  font-size: 56px;
+  line-height: 10px;
+  font-family: poppinsmedium;
+}
+
+span {
+  color: rgb(132, 14, 201);
+}
+
+p {
+  line-height: 20px;
+  max-width: 500px;
+  font-family: poppinsligth;
+}
+
+img {
+  width: 500px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+input {
+  margin-top: 20px;
+  height: 20px;
+  padding: 15px;
+  border-radius: 10px;
+  border: none;
+  font-size: 15px;
+}
+
+input[type="submit"] {
+  height: 50px;
+  width: 80%;
+  background-color: #008000;
+  color: #fff;
+}
+input[type="submit"]:hover {
+  cursor: pointer;
+}
